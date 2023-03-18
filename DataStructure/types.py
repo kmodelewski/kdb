@@ -13,3 +13,12 @@ print(f"suma = {suma}")
 isinstance(suma, int)
 if type(suma) is int:
     print(suma)
+
+#type checking swith case
+
+x = 'a'
+#https://stackoverflow.com/questions/66159432/how-to-use-values-stored-in-variables-as-case-patterns
+match x:
+    case isinstance(x, int): "integer"
+    case isinstance(x,str): "string"
+    case  _: print("other type")
