@@ -1,0 +1,3 @@
+Lat, Long, name
+45, 10, Warsaw
+49,05, London
